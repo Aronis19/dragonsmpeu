@@ -26,10 +26,6 @@ const teamGroups = [
     members: [["Ar0n1s_", "Majitel"]],
   },
   {
-    title: "Quality assurance",
-    members: [],
-  },
-  {
     title: "Vedení týmu",
     members: [],
   },
