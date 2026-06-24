@@ -99,10 +99,11 @@ svg {
 }
 
 .nav-shell {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: space-between;
   gap: 24px;
+  position: relative;
 }
 
 .brand {
@@ -120,7 +121,10 @@ svg {
   align-items: center;
   justify-content: center;
   gap: 14px;
-  margin-left: auto;
+  justify-self: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .desktop-nav a {
