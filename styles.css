@@ -160,6 +160,7 @@ svg {
   display: flex;
   align-items: center;
   gap: 14px;
+  justify-self: end;
   flex: 0 0 auto;
 }
 
