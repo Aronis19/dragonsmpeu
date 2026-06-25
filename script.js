@@ -82,7 +82,6 @@ const faq = [
   "Kde mohu vidět přehled, co se aktuálně na serveru děje?",
   "Jak vytvořím ticket?",
   "Jak si změním heslo?",
-  "Jak mohu získat roli Tomato Friend na našem discordu?",
 ];
 
 function hero(title) {
