@@ -159,7 +159,7 @@ function modeCard(src, alt, text) {
 }
 
 function avatarUrl(name) {
-  return `https://minotar.net/armor/bust/${encodeURIComponent(name)}/256.png`;
+  return `https://rajce.pro/dungeons/${encodeURIComponent(name)}/bust`;
 }
 
 function renderTeam() {
