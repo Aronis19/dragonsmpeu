@@ -114,7 +114,7 @@ function renderHome() {
           </div>
           <div class="content-copy">
             <h2>O <span>Zevyx.eu</span></h2>
-            <p>Zevyx.eu je moderní československý Minecraft server zaměřený na oddechové hraní, vlastní obsah a propracované herní módy. Po připojení tě čeká Survival, Anarchy a komunitní eventy, kde se můžeš zapojit s přáteli i týmem.</p>
+            <p>Zevyx.eu je moderní československý Minecraft server zaměřený na oddechové hraní, vlastní obsah a propracovaný herní mód. Na serveru tě čeká SMP s custom mod itemy!.</p>
           </div>
         </div>
       </div>
