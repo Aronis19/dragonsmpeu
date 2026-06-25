@@ -51,7 +51,7 @@ const minecraftRules = [
   ["Obecné informace", ["Respektuj pokyny členů týmu.", "Neznalost pravidel neomlouvá a tresty se řeší podle závažnosti situace."]],
   ["Obecná pravidla serveru", ["Nepoužívej chyby hry ani serveru ve svůj prospěch.", "Nekaz hru ostatním a neobcházej udělená omezení."]],
   ["Váš účet", ["Za svůj účet zodpovídáš ty.", "Heslo nesdílej s ostatními hráči a při problému kontaktuj podporu."]],
-  ["Herní klient", ["Zakázané jsou úpravy klienta, které dávají neférovou výhodu.", "Povolené jsou jen běžné vizuální a výkonnostní úpravy bez zásahu do hry."]],
+  ["Herní klient", ["Zakázané jsou úpravy klienta, které dávají neférovou výhodu. (viz.: Zakázané Mody)", "Povolené jsou jen běžné vizuální a výkonnostní úpravy bez zásahu do hry."]],
   ["Zakázané Mody", ["Xray", "Accurate Block Placement", "Armor Hotswap", "Autoswitch", "Quickcraft", "Auto Clicker", "Freecam", "Geyser", "Tweakeroo", "Click Crystals", "InvMove", "Fluidlogged", "Bridging Mod", "AutoTotem", "D-hand mod", "Tick Rate", "Multi Key Bindings", "A další módy nebo úpravy, které výrazně mění charakter hry nebo poskytují hráči neférovou výhodu."]],
   ["Pravidla komunikace", ["Chovej se slušně v chatu i soukromých zprávách.", "Spam, nadávky, reklama a provokace mohou vést k trestu."]],
   ["Gameplay", ["Hraj fér, nevyužívej dupování, bugy ani automatizaci mimo povolené limity.", "PvP a ekonomika mají zůstat férové pro všechny."]],
