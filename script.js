@@ -23,13 +23,7 @@ const asset = {
 const teamGroups = [
   {
     title: "Vedení serveru",
-    members: [
-     ["KarelHabsbursky", "Majitel"],
-     ["Kacatkobenzii", "Spolu - Majitel"],
-    ],git add script.js
-git commit -m "Fix team member data"
-git pull --rebase origin main
-git push origin main
+    members: [["KarelHabsbursky", "Majitel"]],
   },
   {
     title: "Vedení týmu",
