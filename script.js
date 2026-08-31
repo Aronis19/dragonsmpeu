@@ -155,7 +155,7 @@ function modeCard(src, alt, text) {
 }
 
 function avatarUrl(name) {
-  return `https://rajce.pro/dungeons/${encodeURIComponent(name)}/bust`;
+  return `https://visage.surgeplay.com/bust/160/${encodeURIComponent(name)}`;
 }
 
 function renderTeam() {
