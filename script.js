@@ -88,7 +88,7 @@ function hero(title) {
         <h1>${title}</h1>
         <button class="server-pill copy-ip" type="button" aria-label="Zkopírovat IP adresu serveru">
           <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/></svg>
-          <span>mc.DragonSMP</span>
+          <span>dragonsmp.eu</span>
         </button>
       </div>
     </section>
@@ -275,7 +275,7 @@ function renderInfo() {
             <div class="step-item">1. Spusťte Minecraft a vyberte verzi 1.21.4 - 1.21.11</div>
             <div class="step-item">2. V nabídce vyberte Multiplayer / Hra více hráčů</div>
             <div class="step-item">3. Klikněte na Add server / Přidat server</div>
-            <div class="step-item">4. Do adresy serveru napište mc.DragonSMP</div>
+            <div class="step-item">4. Do adresy serveru napište dragonsmp.eu</div>
             <div class="step-item">5. Po připojení použijte /register heslo a příště /login heslo</div>
           </div>
         </section>
@@ -378,10 +378,10 @@ document.addEventListener("click", async (event) => {
     const label = copyButton.querySelector("span");
     const original = label.textContent;
     try {
-      await navigator.clipboard.writeText("mc.DragonSMP");
+      await navigator.clipboard.writeText("dragonsmp.eu");
       label.textContent = "Zkopírováno";
     } catch {
-      label.textContent = "mc.DragonSMP";
+      label.textContent = "dragonsmp.eu";
     }
     copyButton.classList.add("copied");
     window.setTimeout(() => {
