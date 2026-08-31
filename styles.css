@@ -392,7 +392,7 @@ body.light .mobile-nav a {
   height: 3px;
   border-radius: 999px;
   background: var(--accent);
-  box-shadow: 0 0 10px rgba(239, 27, 27, 0.35);
+  box-shadow: 0 0 10px rgba(34, 239, 27, 0.35);
 }
 
 .redline {
@@ -443,7 +443,7 @@ body.light .mobile-nav a {
 .content-copy a:not(.primary-button),
 .footer-main a:not(.shop-button),
 .copyright a {
-  color: #5999ff;
+  color: #6cff59;
   font-weight: 800;
 }
 
@@ -767,7 +767,7 @@ body.light .footer-top {
 }
 
 .socials a:hover {
-  color: #5999ff;
+  color: #5fff59;
   opacity: 1;
 }
 
