@@ -78,7 +78,7 @@ const faq = [
  ["Nevidím svůj skin, co s tím?", "Pokud máte originální Minecraft a nevidíte svůj skin, je to způsobené limitem Mojangu pro warez servery. Do 3 dnů by se měl skin aktualizovat."],
  ["Kde mohu vidět přehled, co se aktuálně na serveru děje?", "Na našem komunitním Discordu je kanál #oznámení, kde se dozvíš všechny novinky a změny."],
  ["Jak vytvořím ticket?", "Dostav se na náš discord: (https://discord.gg/CFcySAhZG5), jdi do kanálu #Tickety a tam vytvoř ticket, kde si najdeš svoji kategorii, a popíšeš svůj problém."],
- ["Jak si změním heslo?", "Na serveru napiš: /changepass <zde napiš staré heslo> <zde napiš nové heslo>"],
+ ["Jak si změním heslo?", "Na serveru napiš: /changepass (zde napiš staré heslo) (zde napiš nové heslo)"],
 ];
 
 function hero(title) {
