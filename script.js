@@ -65,20 +65,20 @@ const discordRules = [
 ];
 
 const faq = [
- ["Nedošel mi zakoupený produkt z obchodu, co mám dělat?", "Sem napiš odpověď."],
- ["Chci se stát členem Admin-Týmu, jak na to?", "Sem napiš odpověď."],
- ["Mohu si migrovat VIP na jiný účet?", "Sem napiš odpověď."],
- ["Jak zapnout autologin na serveru?", "Sem napiš odpověď."],
- ["Omylem jsem zapnul autologin a nemám origo, co mám dělat?", "Sem napiš odpověď."],
- ["Dostal jsem trest neprávem, co mám dělat?", "Sem napiš odpověď."],
- ["Dostal jsem trest neprávem a nemohu ho řešit, protože mám aktivní trest na discordu.", "Sem napiš odpověď."],
- ["Chtěl bych se stát Creatorem, co musím udělat?", "Sem napiš odpověď."],
- ["Nenačetl se mi resource pack, co s tím?", "Sem napiš odpověď."],
- ["Jak mám postupovat, když jsem zapomněl heslo a potřebuji unregister?", "Sem napiš odpověď."],
- ["Nevidím svůj skin, co s tím?", "Sem napiš odpověď."],
- ["Kde mohu vidět přehled, co se aktuálně na serveru děje?", "Sem napiš odpověď."],
- ["Jak vytvořím ticket?", "Sem napiš odpověď."],
- ["Jak si změním heslo?", "Sem napiš odpověď."],
+ ["Nedošel mi zakoupený produkt z obchodu, co mám dělat?", "Pro podporu kontaktuj podporu na Discordu. Tam to s vámi náš Tým vyřeší. (https://discord.gg/CFcySAhZG5)"],
+ ["Chci se stát členem Admin-Týmu, jak na to?", "Pro podporu kontaktuj podporu na Discordu. Tam to s vámi náš Tým vyřeší. (https://discord.gg/CFcySAhZG5)"],
+ ["Mohu si migrovat VIP na jiný účet?", "Pro podporu kontaktuj podporu na Discordu. Tam to s vámi náš Tým vyřeší. (https://discord.gg/CFcySAhZG5)"],
+ ["Jak zapnout autologin na serveru?", "Pro podporu kontaktuj podporu na Discordu. Tam to s vámi náš Tým vyřeší. (https://discord.gg/CFcySAhZG5)"],
+ ["Omylem jsem zapnul autologin a nemám origo, co mám dělat?", "Pro podporu kontaktuj podporu na Discordu. Tam to s vámi náš Tým vyřeší. (https://discord.gg/CFcySAhZG5)"],
+ ["Dostal jsem trest neprávem, co mám dělat?", "Pro podporu kontaktuj podporu na Discordu. Tam to s vámi náš Tým vyřeší. (https://discord.gg/CFcySAhZG5)"],
+ ["Dostal jsem trest neprávem a nemohu ho řešit, protože mám aktivní trest na discordu.", "Pro podporu kontaktuj podporu na Discordu. Tam to s vámi náš Tým vyřeší. (https://discord.gg/CFcySAhZG5)"],
+ ["Chtěl bych se stát Creatorem, co musím udělat?", "Pro podporu kontaktuj podporu na Discordu. Tam to s vámi náš Tým vyřeší. (https://discord.gg/CFcySAhZG5)"],
+ ["Nenačetl se mi resource pack, co s tím?", "V nabídce klikněte na server, poté na edit a v kolonce Server Resource Pack (česky Serverové balíčky modifikací) musíte mít Enabled (česky Povoleno)."],
+ ["Jak mám postupovat, když jsem zapomněl heslo a potřebuji unregister?", "Kontaktuj podporu na Discordu. Tam to s vámi náš Tým vyřeší. (https://discord.gg/CFcySAhZG5)"],
+ ["Nevidím svůj skin, co s tím?", "Pokud máte originální Minecraft a nevidíte svůj skin, je to způsobené limitem Mojangu pro warez servery. Do 3 dnů by se měl skin aktualizovat."],
+ ["Kde mohu vidět přehled, co se aktuálně na serveru děje?", "Na našem komunitním Discordu je kanál #oznámení, kde se dozvíš všechny novinky a změny."],
+ ["Jak vytvořím ticket?", "Dostav se na náš discord: (https://discord.gg/CFcySAhZG5), jdi do kanálu #Tickety a tam vytvoř ticket, kde si najdeš svoji kategorii, a popíšeš svůj problém."],
+ ["Jak si změním heslo?", "Na serveru napiš: /changepass <zde napiš staré heslo> <zde napiš nové heslo>"],
 ];
 
 function hero(title) {
