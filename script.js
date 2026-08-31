@@ -6,7 +6,7 @@ const themeButtons = document.querySelectorAll("#themeToggle, .panel-theme-toggl
 const header = document.querySelector(".site-header");
 
 const routeNames = {
-  domu: "Zevyx.eu",
+  domu: "DragonSMP",
   "nas-tym": "Náš tým",
   pravidla: "Pravidla",
   "zakladni-informace": "Základní informace",
@@ -88,7 +88,7 @@ function hero(title) {
         <h1>${title}</h1>
         <button class="server-pill copy-ip" type="button" aria-label="Zkopírovat IP adresu serveru">
           <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z"/></svg>
-          <span>mc.zevyx.eu</span>
+          <span>mc.DragonSMP</span>
         </button>
       </div>
     </section>
@@ -101,17 +101,17 @@ function titleBlock(text) {
 
 function renderHome() {
   return `
-    ${hero("Zevyx.eu")}
+    ${hero("DragonSMP")}
     <section class="section">
       <div class="section-inner">
         ${titleBlock("O nás")}
         <div class="about-grid">
           <div class="render-wrap">
-            <img src="${asset.hestreng}" alt="Minecraft postava Zevyx.eu" />
+            <img src="${asset.hestreng}" alt="Minecraft postava DragonSMP" />
           </div>
           <div class="content-copy">
-            <h2>O <span>Zevyx.eu</span></h2>
-            <p>Zevyx.eu je moderní československý Minecraft server zaměřený na oddechové hraní, vlastní obsah a propracovaný herní mód. Na serveru tě čeká SMP s custom mod itemy!.</p>
+            <h2>O <span>DragonSMP</span></h2>
+            <p>DragonSMP je moderní československý Minecraft server zaměřený na oddechové hraní, vlastní obsah a propracovaný herní mód. Na serveru tě čeká SMP s custom mod itemy!.</p>
           </div>
         </div>
       </div>
@@ -129,13 +129,13 @@ function renderHome() {
               <li>Na Discordu se řeší hraní, oznámení i eventy.</li>
               <li>Novinky se často objeví nejdřív právě tam.</li>
             </ul>
-            <a class="primary-button" href="https://discord.gg/zevyxeu" target="_blank" rel="noreferrer">
+            <a class="primary-button" href="https://discord.gg/f6TP82D8wA" target="_blank" rel="noreferrer">
               <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20.3 4.4A17.1 17.1 0 0 0 16 3l-.2.4c1.5.4 2.3 1 3.1 1.7a12.6 12.6 0 0 0-10 0c.8-.7 1.8-1.3 3.1-1.7L11.8 3c-1.5.2-3 .7-4.3 1.4C4.8 8.4 4 12.2 4.4 16a17 17 0 0 0 5.2 2.7l.9-1.5c-.5-.2-1-.5-1.5-.8l.4-.3c2.9 1.4 6 1.4 8.8 0l.4.3c-.5.3-1 .6-1.5.8l.9 1.5A17 17 0 0 0 23.2 16c.5-4.3-.8-8.1-2.9-11.6ZM10 14.3c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Zm6 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Z"/></svg>
               Chci se přidat
             </a>
           </div>
           <div class="render-wrap">
-            <img src="${asset.wumpus}" alt="Discord render Zevyx.eu" />
+            <img src="${asset.wumpus}" alt="Discord render DragonSMP" />
           </div>
         </div>
       </div>
@@ -144,7 +144,7 @@ function renderHome() {
 }
 
 function modeCard(src, alt, text) {
-  const href = alt === "Pokeland" ? ' href="https://pokeland.zevyx.eu/instalace" target="_blank" rel="noreferrer"' : "";
+  const href = alt === "Pokeland" ? ' href="https://pokeland.DragonSMP/instalace" target="_blank" rel="noreferrer"' : "";
   const tag = href ? "a" : "article";
   return `
     <${tag} class="mode-card"${href}>
@@ -213,7 +213,7 @@ function renderRules() {
       <div class="section-inner">
         <div class="rules-block">
           ${titleBlock("Minecraft pravidla")}
-          <p class="intro-copy">Hraním na Zevyx.eu souhlasíš s pravidly serveru. Tým může zasáhnout i u situací, které nejsou doslova vypsané, pokud poškozují férovou hru nebo komunitu.</p>
+          <p class="intro-copy">Hraním na DragonSMP souhlasíš s pravidly serveru. Tým může zasáhnout i u situací, které nejsou doslova vypsané, pokud poškozují férovou hru nebo komunitu.</p>
           <div class="fold-list">${minecraftRules.map(renderFold).join("")}</div>
         </div>
         <div class="rules-block">
@@ -247,15 +247,15 @@ function renderInfo() {
           <div class="info-list">
             <div>
               <h3>Kontaktní e-mailové adresy</h3>
-              <ul><li><a href="mailto:podpora@zevyx.eu">podpora@zevyx.eu</a> (kontaktní e-mail)</li></ul>
+              <ul><li><a href="mailto:podpora@DragonSMP">podpora@DragonSMP</a> (kontaktní e-mail)</li></ul>
             </div>
             <div>
               <h3>Sociální sítě</h3>
               <ul>
                 <li>Discord: <a href="https://discord.gg/zevyxeu" target="_blank" rel="noreferrer">https://discord.gg/zevyxeu</a></li>
-                <li>Instagram: <a href="https://instagram.zevyx.eu/" target="_blank" rel="noreferrer">zevyx.eu</a></li>
-                <li>TikTok: <a href="https://tiktok.zevyx.eu/" target="_blank" rel="noreferrer">@zevyx.eu</a></li>
-                <li>YouTube: <a href="https://youtube.zevyx.eu/" target="_blank" rel="noreferrer">zevyxeu</a></li>
+                <li>Instagram: <a href="https://instagram.DragonSMP/" target="_blank" rel="noreferrer">DragonSMP</a></li>
+                <li>TikTok: <a href="https://tiktok.DragonSMP/" target="_blank" rel="noreferrer">@DragonSMP</a></li>
+                <li>YouTube: <a href="https://youtube.DragonSMP/" target="_blank" rel="noreferrer">zevyxeu</a></li>
               </ul>
             </div>
             <div>
@@ -275,7 +275,7 @@ function renderInfo() {
             <div class="step-item">1. Spusťte Minecraft a vyberte verzi 1.21.4 - 1.21.11</div>
             <div class="step-item">2. V nabídce vyberte Multiplayer / Hra více hráčů</div>
             <div class="step-item">3. Klikněte na Add server / Přidat server</div>
-            <div class="step-item">4. Do adresy serveru napište mc.zevyx.eu</div>
+            <div class="step-item">4. Do adresy serveru napište mc.DragonSMP</div>
             <div class="step-item">5. Po připojení použijte /register heslo a příště /login heslo</div>
           </div>
         </section>
@@ -325,7 +325,7 @@ function currentRoute() {
 function renderRoute(options = {}) {
   const route = currentRoute();
   app.innerHTML = renderers[route]();
-  document.title = route === "domu" ? "Zevyx.eu" : `${routeNames[route]} | Zevyx.eu`;
+  document.title = route === "domu" ? "DragonSMP" : `${routeNames[route]} | DragonSMP`;
   document.querySelectorAll("[data-route]").forEach((link) => {
     link.classList.toggle("active", link.dataset.route === route);
   });
@@ -378,10 +378,10 @@ document.addEventListener("click", async (event) => {
     const label = copyButton.querySelector("span");
     const original = label.textContent;
     try {
-      await navigator.clipboard.writeText("mc.zevyx.eu");
+      await navigator.clipboard.writeText("mc.DragonSMP");
       label.textContent = "Zkopírováno";
     } catch {
-      label.textContent = "mc.zevyx.eu";
+      label.textContent = "mc.DragonSMP";
     }
     copyButton.classList.add("copied");
     window.setTimeout(() => {
