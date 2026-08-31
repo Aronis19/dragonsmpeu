@@ -23,11 +23,11 @@ const asset = {
 const teamGroups = [
   {
     title: "Vedení serveru",
-    members: [["KarelHabsbursky", "Majitel"], ["Kacatkobenzii", "Spolu - Majitel"], ["Ar0n1sMain_", "Technical Manager"], ["K1ttenMain_", "Hl. Administrátor"]],
+    members: [["KarelHabsbursky", "Majitel"], ["Kacatkobenzii", "Spolu - Majitel"], ["Ar0n1sMain_", "Technical Manager"], ["K1ttenMain_", "Hl. Administrátor"], ["C4rynka_", "Administrátor"]],
   },
   {
     title: "Vedení týmu",
-    members: [],
+    members: [["AquamanSalinini", "Hl. Helper"]],
   },
   {
     title: "Technický tým",
@@ -35,11 +35,11 @@ const teamGroups = [
   },
   {
     title: "Builder tým",
-    members: [],
+    members: [["LarperLogi", "Builder"]],
   },
   {
     title: "Helper tým",
-    members: [],
+    members: [["Br4mbi", "El. Helper"], [" Dominik098789", "Zk. Helper"], [" Ox12345xO", "Zk. Helper"]],
   },
 ];
 
