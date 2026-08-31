@@ -276,12 +276,12 @@ function renderInfo() {
         </section>
 
         <section class="info-block">
-          ${titleBlock("Jak se stát Creatorem")}
+          ${titleBlock("Jak se stát Mediou")}
           <div class="creator-grid">
-            ${creatorCard("YouTuber", ["alespoň 1000 odběratelů", "věk 16+", "aktivní videa ze serveru", "slušná reprezentace komunity"])}
-            ${creatorCard("TikToker", ["alespoň 1000 sledujících", "věk 16+", "aktivita u videí", "minimálně několik videí ze serveru"])}
-            ${creatorCard("Streamer", ["minimálně 500 followerů", "věk 16+", "odpovídající sledovanost", "pravidelné streamy ze serveru"])}
-            ${creatorCard("Výhody Creatora na serveru", ["prefix Creator a Discord role", "VIP výhody", "možnost sebepropagace", "vlastní eventy a soutěže"])}
+            ${creatorCard("YouTuber", ["alespoň 1000 odběratelů", "věk 13+", "aktivní videa ze serveru", "slušná reprezentace komunity"])}
+            ${creatorCard("TikToker", ["alespoň 1000 sledujících", "věk 13+", "aktivita u videí", "minimálně několik videí ze serveru"])}
+            ${creatorCard("Streamer", ["minimálně 500 followerů", "věk 13+", "odpovídající sledovanost", "pravidelné streamy ze serveru"])}
+            ${creatorCard("Výhody Media na serveru", ["prefix Media Discord role", "VIP výhody", "možnost sebepropagace", "vlastní eventy a soutěže"])}
           </div>
         </section>
 
