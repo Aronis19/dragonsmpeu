@@ -246,10 +246,6 @@ function renderInfo() {
           ${titleBlock("Kontakt")}
           <div class="info-list">
             <div>
-              <h3>Kontaktní e-mailové adresy</h3>
-              <ul><li><a href="mailto:podpora@DragonSMP">podpora@DragonSMP</a> (kontaktní e-mail)</li></ul>
-            </div>
-            <div>
               <h3>Sociální sítě</h3>
               <ul>
                 <li>Discord: <a href="https://discord.gg/zevyxeu" target="_blank" rel="noreferrer">https://discord.gg/zevyxeu</a></li>
@@ -261,9 +257,8 @@ function renderInfo() {
             <div>
               <h3>Stránky, na kterých je možné pro nás hlasovat</h3>
               <ul>
-                <li><a href="https://craftlist.org/zevyx?nick=Va%C5%A1e%20hern%C3%AD%20jm%C3%A9no" target="_blank" rel="noreferrer">Craftlist.org</a></li>
-                <li><a href="https://czech-craft.eu/server/zevyx-eu/vote" target="_blank" rel="noreferrer">Czech-Craft.eu</a></li>
-                <li><a href="https://minecraftservery.eu/server/zevyxeu/vote/" target="_blank" rel="noreferrer">MinecraftServery.eu</a></li>
+                <li><a href="http://craftlist.cz/dragonsmp#vote" target="_blank" rel="noreferrer">Craftlist.org</a></li>
+                <li><a href="http://czech-craft.eu/server/dragonsmp-4153/" target="_blank" rel="noreferrer">Czech-Craft.eu</a></li>
               </ul>
             </div>
           </div>
