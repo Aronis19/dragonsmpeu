@@ -39,7 +39,7 @@ const teamGroups = [
   },
   {
     title: "Helper tým",
-    members: [["Br4mbi", "El. Helper"], [" Dominik098789", "Zk. Helper"], [" Ox12345xO", "Zk. Helper"]],
+    members: [["Br4mbi", "El. Helper"], ["Dominik098789", "Zk. Helper"], ["Ox12345xO", "Zk. Helper"]],
   },
 ];
 
