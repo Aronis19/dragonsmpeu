@@ -7,12 +7,12 @@
   --muted: #c8cdd5;
   --dim: #8b93a0;
   --line: rgba(255, 255, 255, 0.08);
-  --accent: #0062ff;
-  --accent-dark: #0047b8;
+  --accent: #09ff00;
+  --accent-dark: #00b80f;
   --amber: #f59e0b;
   --amber-dark: #b46304;
-  --discord: #5865f2;
-  --discord-dark: #3841b7;
+  --discord: #58f272;
+  --discord-dark: #38b758;
   --container: 1088px;
   --font-body: "Karla", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-display: "Montserrat", var(--font-body);
@@ -578,31 +578,31 @@ body.light .mobile-nav a {
 }
 
 .role-owner {
-  background: linear-gradient(180deg, #5999ff, #0062ff);
+  background: linear-gradient(180deg, #59ff75, #00ff62);
 }
 
 .role-admin {
-  background: linear-gradient(180deg, #5999ff, #0062ff);
+  background: linear-gradient(180deg, #ff5961, #ff0000);
 }
 
 .role-qa {
-  background: linear-gradient(180deg, #38bdf8, #0369a1);
+  background: linear-gradient(180deg, #3ef838, #03a110);
 }
 
 .role-helper {
-  background: linear-gradient(180deg, #8b5cf6, #5b21b6);
+  background: linear-gradient(180deg, #6ef65c, #26b621);
 }
 
 .role-tech {
-  background: linear-gradient(180deg, #22d3ee, #0e7490);
+  background: linear-gradient(180deg, #eebe22, #670e90);
 }
 
 .role-builder {
-  background: linear-gradient(180deg, #34d399, #047857);
+  background: linear-gradient(180deg, #c034d3, #740478);
 }
 
 .role-designer {
-  background: linear-gradient(180deg, #fb7185, #be123c);
+  background: linear-gradient(180deg, #71fbcd, #12bea1);
 }
 
 .intro-copy {
