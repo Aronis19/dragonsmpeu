@@ -578,11 +578,11 @@ body.light .mobile-nav a {
 }
 
 .role-owner {
-  background: linear-gradient(180deg, #59ff75, #00ff62);
+  background: linear-gradient(180deg, #00cc4e #00cc4e);
 }
 
 .role-admin {
-  background: linear-gradient(180deg, #ff5961, #ff0000);
+  background: linear-gradient(180deg, #ff0000, #ff0000);
 }
 
 .role-qa {
@@ -590,19 +590,19 @@ body.light .mobile-nav a {
 }
 
 .role-helper {
-  background: linear-gradient(180deg, #6ef65c, #26b621);
+  background: linear-gradient(180deg, #00b2e9, #00b2e9);
 }
 
 .role-tech {
-  background: linear-gradient(180deg, #eebe22, #670e90);
+  background: linear-gradient(180deg, #ffbb00, #ffbb00);
 }
 
 .role-builder {
-  background: linear-gradient(180deg, #c034d3, #740478);
+  background: linear-gradient(180deg, #c034d3, #c034d3);
 }
 
 .role-designer {
-  background: linear-gradient(180deg, #71fbcd, #12bea1);
+  background: linear-gradient(180deg, #00ffd5, #00ffd5);
 }
 
 .intro-copy {
