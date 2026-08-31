@@ -65,20 +65,20 @@ const discordRules = [
 ];
 
 const faq = [
-  "Nedošel mi zakoupený produkt z obchodu, co mám dělat?",
-  "Chci se stát členem Admin-Týmu, jak na to?",
-  "Mohu si migrovat VIP na jiný účet?",
-  "Jak zapnout autologin na serveru?",
-  "Omylem jsem zapnul autologin a nemám origo, co mám dělat?",
-  "Dostal jsem trest neprávem, co mám dělat?",
-  "Dostal jsem trest neprávem a nemohu ho řešit, protože mám aktivní trest na discordu.",
-  "Chtěl bych se stát Creatorem, co musím udělat?",
-  "Nenačetl se mi resource pack, co s tím?",
-  "Jak mám postupovat, když jsem zapomněl heslo a potřebuji unregister?",
-  "Nevidím svůj skin, co s tím?",
-  "Kde mohu vidět přehled, co se aktuálně na serveru děje?",
-  "Jak vytvořím ticket?",
-  "Jak si změním heslo?",
+ ["Nedošel mi zakoupený produkt z obchodu, co mám dělat?", "Sem napiš odpověď."],
+ ["Chci se stát členem Admin-Týmu, jak na to?", "Sem napiš odpověď."],
+ ["Mohu si migrovat VIP na jiný účet?", "Sem napiš odpověď."],
+ ["Jak zapnout autologin na serveru?", "Sem napiš odpověď."],
+ ["Omylem jsem zapnul autologin a nemám origo, co mám dělat?", "Sem napiš odpověď."],
+ ["Dostal jsem trest neprávem, co mám dělat?", "Sem napiš odpověď."],
+ ["Dostal jsem trest neprávem a nemohu ho řešit, protože mám aktivní trest na discordu.", "Sem napiš odpověď."],
+ ["Chtěl bych se stát Creatorem, co musím udělat?", "Sem napiš odpověď."],
+ ["Nenačetl se mi resource pack, co s tím?", "Sem napiš odpověď."],
+ ["Jak mám postupovat, když jsem zapomněl heslo a potřebuji unregister?", "Sem napiš odpověď."],
+ ["Nevidím svůj skin, co s tím?", "Sem napiš odpověď."],
+ ["Kde mohu vidět přehled, co se aktuálně na serveru děje?", "Sem napiš odpověď."],
+ ["Jak vytvořím ticket?", "Sem napiš odpověď."],
+ ["Jak si změním heslo?", "Sem napiš odpověď."],
 ];
 
 function hero(title) {
@@ -288,7 +288,7 @@ function renderInfo() {
         <section class="info-block">
           ${titleBlock("Často kladené dotazy")}
           <div class="fold-list">
-            ${faq.map((question) => renderFold([question, ["Nejrychlejší řešení najdeš přes Discord podporu nebo ticket se stručným popisem situace."]])).join("")}
+            ${faq.map(([question, answer]) => renderFold([question, [answer]])).join("")}
           </div>
         </section>
       </div>
