@@ -23,7 +23,7 @@ const asset = {
 const teamGroups = [
   {
     title: "Vedení serveru",
-    members: [["KarelHabsbursky", "Majitel"], ["Kacatkobenzii", "Spolu - Majitel"], ["Ar0n1sMain_", "Technical Manager"], ["K1ttenMain_", "Hl. Administrátor"], ["C4rynka_", "Administrátor"]],
+    members: [["KarelHabsbursky", "Majitel"], ["Kacatkobenzii", "Spolu - Majitel"], ["Ar0n1sMain_", "Manager"], ["K1ttenMain_", "Hl. Administrátor"], ["C4rynka_", "Administrátor"]],
   },
   {
     title: "Vedení týmu",
